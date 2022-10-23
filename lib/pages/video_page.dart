@@ -62,6 +62,11 @@ class _VideoPageState extends State<VideoPage> {
               }
             },
           ),
+          Image.asset(
+            'assets/images/back.png',
+            height: 2160,
+            width: 1080,
+          ),
         ],
       ),
     );
