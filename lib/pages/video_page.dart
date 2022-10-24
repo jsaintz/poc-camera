@@ -62,10 +62,13 @@ class _VideoPageState extends State<VideoPage> {
               }
             },
           ),
-          Image.asset(
-            'assets/images/back.png',
-            height: 2160,
-            width: 1080,
+          Padding(
+            padding: const EdgeInsets.only(top: 55),
+            child: Image.asset(
+              'assets/images/back.png',
+              height: 2160,
+              width: 1080,
+            ),
           ),
         ],
       ),
